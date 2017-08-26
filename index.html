@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cancer Demo</title>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dropdown.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dropdown.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <script src='./js/svg.js'></script>
+    <script src='./js/svg.draggable.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h1>Cancer Demo</h1>
+<p class="note">Try dragging the
+    <b>blue marker points</b>
+    around ;)
+</p>
+<div class="ui selection dropdown" style="margin: 20px 20px;">
+  <input type="hidden" name="gender">
+  <i class="dropdown icon"></i>
+  <div class="default text">Image</div>
+  <div class="menu">
+    <div class="item" data-value="1">1</div>
+    <div class="item" data-value="2">2</div>
+    <div class="item" data-value="3">3</div>
+    <div class="item" data-value="4">4</div>
+    <div class="item" data-value="5">5</div>
+  </div>
+</div>
+<div id="drawing1"></div>
+
+<p class="note">made with <a href="https://github.com/wout/svg.js" target="_blank">svg.js</a></p>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
